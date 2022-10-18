@@ -1,7 +1,5 @@
 
 
-
-
 let name = prompt('Write your name');
 console.log(name);
 
@@ -14,7 +12,7 @@ console.log(colors);
 const numbers = 99;
 console.log(numbers);
 
-document.getElementById('password').innerHTML = `la tua password insicurissima è ${name + surname + colors + numbers}`
+document.getElementById('password').innerHTML = `La tua password insicurissima è ${name + surname + colors + numbers}`
 
 
 
